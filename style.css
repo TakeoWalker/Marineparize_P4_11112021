@@ -90,6 +90,11 @@ a:hover {
     right: 0;
 }
 
+blockquote p {
+    font-size:25px;
+    font-style:italic
+   }
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -285,6 +290,10 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    padding: 10px;
+    background-color: #303030;
+    border-radius: 5px;
+    color: #F3976C!important;
 }
 
 .navbar {
@@ -676,8 +685,31 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+p,
+figcaption {
+ font-size:14px;
+}
+figcaption {
+ color:#575757
+}
+
+.formulaire{
+    padding:10px 0;
+    color:white!important;
+    background-color: #745738;
+}
+
+.formulaire h2, .formulaire p, .formulaire label{
+    color:white!important;
+}
+input{
+    color:rgb(70, 70, 70) !important;
+    font-style: italic;
+    font-size: 10px !important;
+}
+
+#contact {
+    font-weight:600;
 }
 
 .tight-width-whitespace {
@@ -741,6 +773,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -748,12 +783,16 @@ h4 {
     margin-top: 50px;
 }
 
+article {
+    margin-bottom: 40px;
+}
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #745738;
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,17 +814,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #ffebab!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -793,7 +832,8 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #000!important;
+    background: #F3976C!important;
 }
 
 .ltc-atomic-tangerine {
@@ -822,7 +862,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
