@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -451,7 +451,7 @@ nav .caret {
 
 .mg-lg {
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
 }
 
 .btn {
@@ -694,14 +694,18 @@ figcaption {
 }
 
 .formulaire{
-    padding:10px 0;
+    margin: 20px;
     color:white!important;
-    background-color: #745738;
 }
 
 .formulaire h2, .formulaire p, .formulaire label{
     color:white!important;
 }
+
+.brown-background {
+    background-color: #745738;
+}
+
 input{
     color:rgb(70, 70, 70) !important;
     font-style: italic;
@@ -737,7 +741,7 @@ input{
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 30px;
     line-height: 1.4em;
 }
 
