@@ -706,18 +706,19 @@ figcaption {
     background-color: #745738;
 }
 
-input, input:focus{
+input{
     color:rgb(70, 70, 70) !important;
     font-style: italic;
     font-size: 14px !important;
 }
 
-input:invalid {
+input:focus:invalid {
+    outline: none;
     border: 2px solid red;
     box-shadow: 0 0 5px 1px red;
-}
+  }
   
-input:valid {
+input:focus:valid {
     border: 1px solid black;
     box-shadow: 0 0 5px 1px #00FF7F;
 }
