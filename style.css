@@ -706,11 +706,22 @@ figcaption {
     background-color: #745738;
 }
 
-input{
+input, input:focus{
     color:rgb(70, 70, 70) !important;
     font-style: italic;
-    font-size: 10px !important;
+    font-size: 14px !important;
 }
+
+input:invalid {
+    border: 2px solid red;
+    box-shadow: 0 0 5px 1px red;
+}
+  
+input:valid {
+    border: 1px solid black;
+    box-shadow: 0 0 5px 1px #00FF7F;
+}
+  
 
 #contact {
     font-weight:600;
