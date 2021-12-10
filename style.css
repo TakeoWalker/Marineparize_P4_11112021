@@ -881,6 +881,12 @@ article {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.partenaire {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
